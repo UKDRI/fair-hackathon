@@ -1,0 +1,16 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5281/zenodo.7622128",
+  "identifier": "https://doi.org/10.5281/zenodo.7622128",
+  "name": "TIHM: An open dataset for remote healthcare monitoring in dementia",
+  "description": "Remote-monitoring data tracking localized physiological, environmental, and behavioral signals from patients living with dementia.",
+  "url": "http://host.docker.internal:8000/",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": [
+    "Dementia",
+    "Remote Healthcare Monitoring",
+    "Digital Health",
+    "Internet of Things"
+  ]
+}
