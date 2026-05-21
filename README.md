@@ -1,5 +1,7 @@
 # FAIR Hackathon — repair the broken dataset!!
 
+test
+
 You've inherited a dataset hosting setup that is **as un-FAIR as possible**.
 This repo contains a self-hostable copy of the
 [TIHM remote-monitoring dataset](https://doi.org/10.5281/zenodo.7622128),
