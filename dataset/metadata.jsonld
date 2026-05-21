@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "@id": "https://w3id.org/fair-hackathon/tihm/v1",
+  "identifier": ["https://w3id.org/fair-hackathon/tihm/v1", "https://doi.org/10.5281/zenodo.7622128"],
+  "name": "TIHM: An open dataset for remote healthcare monitoring in dementia",
+  "description": "Self-hosted teaching copy of the TIHM remote-monitoring dataset for People Living with Dementia, comprising per-patient time-series of activity, sleep, physiology, demographics and clinical labels collected 2019-04-01 to 2019-06-30 by the UK DRI Care Research & Technology Centre at Imperial College London.",
+  "creator": [{"@type": "Organization", "name": "UK DRI Care Research & Technology Centre, Imperial College London"}],
+  "datePublished": "2023-02-08",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": ["dementia", "remote monitoring", "in-home sensing", "wearables", "longitudinal"],
+  "isBasedOn": "https://doi.org/10.5281/zenodo.7622128",
+  "publisher": {"@type": "Organization", "name": "UK Dementia Research Institute"},
+  "distribution": [
+    {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "data/Activity.dat"},
+    {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "data/Demographics.dat"},
+    {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "data/Labels.dat"},
+    {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "data/Physiology.dat"},
+    {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "data/Sleep.dat"}
+  ]
+}
