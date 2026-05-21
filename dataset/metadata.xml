@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dcat="http://www.w3.org/ns/dcat#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:prov="http://www.w3.org/ns/prov#">
+  <dcat:Dataset rdf:about="https://w3id.org/fair-hackathon/tihm/v1">
+    <dcterms:identifier>https://w3id.org/fair-hackathon/tihm/v1</dcterms:identifier>
+    <dcterms:title xml:lang="en">TIHM: An open dataset for remote healthcare monitoring in dementia</dcterms:title>
+    <dcterms:description xml:lang="en">TIHM is an open in-home remote-monitoring dataset for People Living with Dementia (PLWD), comprising per-patient time-series of activity, sleep, physiology, demographics and clinical labels collected between 2019-04-01 and 2019-06-30 by the UK DRI Care Research &amp; Technology Centre.</dcterms:description>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-02-10</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-05-21</dcterms:modified>
+    <dcterms:creator>
+      <foaf:Person>
+        <foaf:name>Francesca Palermo</foaf:name>
+      </foaf:Person>
+    </dcterms:creator>
+    <dcterms:creator>
+      <foaf:Person>
+        <foaf:name>Yu Chen</foaf:name>
+      </foaf:Person>
+    </dcterms:creator>
+    <dcterms:creator>
+      <foaf:Person>
+        <foaf:name>Alexander Capstick</foaf:name>
+      </foaf:Person>
+    </dcterms:creator>
+    <dcterms:creator>
+      <foaf:Person>
+        <foaf:name>Nan Fletcher-Loyd</foaf:name>
+      </foaf:Person>
+    </dcterms:creator>
+    <dcterms:creator>
+      <foaf:Person>
+        <foaf:name>Chloe Walsh</foaf:name>
+      </foaf:Person>
+    </dcterms:creator>
+    <dcterms:creator>
+      <foaf:Person>
+        <foaf:name>Samaneh Kouchaki</foaf:name>
+      </foaf:Person>
+    </dcterms:creator>
+    <dcterms:creator>
+      <foaf:Person>
+        <foaf:name>Jessica True</foaf:name>
+      </foaf:Person>
+    </dcterms:creator>
+    <dcterms:creator>
+      <foaf:Person>
+        <foaf:name>Olga Balazikova</foaf:name>
+      </foaf:Person>
+    </dcterms:creator>
+    <dcterms:creator>
+      <foaf:Person>
+        <foaf:name>Eyal Soreq</foaf:name>
+      </foaf:Person>
+    </dcterms:creator>
+    <dcterms:creator>
+      <foaf:Person>
+        <foaf:name>Gregory Scott</foaf:name>
+      </foaf:Person>
+    </dcterms:creator>
+    <dcterms:creator>
+      <foaf:Person>
+        <foaf:name>Helen Rostill</foaf:name>
+      </foaf:Person>
+    </dcterms:creator>
+    <dcterms:creator>
+      <foaf:Person>
+        <foaf:name>Ramin Nilforooshan</foaf:name>
+      </foaf:Person>
+    </dcterms:creator>
+    <dcterms:creator>
+      <foaf:Person>
+        <foaf:name>Payam Barnaghi</foaf:name>
+      </foaf:Person>
+    </dcterms:creator>
+    <dcterms:language>en</dcterms:language>
+    <dcterms:publisher>
+      <foaf:Organization>
+        <foaf:name>UK DRI Care Research &amp; Technology Centre, Imperial College London</foaf:name>
+        <foaf:homepage rdf:resource="https://ukdri.ac.uk/centres/care-research-technology"/>
+      </foaf:Organization>
+    </dcterms:publisher>
+    <dcat:keyword>Time-Series</dcat:keyword>
+    <dcat:keyword>Machine Learning</dcat:keyword>
+    <dcat:keyword>Remote Healthcare</dcat:keyword>
+    <dcat:keyword>Monitoring</dcat:keyword>
+    <dcat:keyword>Dementia</dcat:keyword>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:rights  rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcterms:conformsTo  rdf:resource="https://www.w3.org/TR/vocab-dcat-2/"/>
+    <prov:wasDerivedFrom rdf:resource="https://doi.org/10.5281/zenodo.7622128"/>
+    <dcterms:source      rdf:resource="https://doi.org/10.5281/zenodo.7622128"/>
+    <dcat:distribution>
+      <dcat:Distribution>
+        <dcterms:title>Activity.csv</dcterms:title>
+        <dcat:accessURL rdf:resource="data/Activity.csv"/>
+        <dcat:mediaType>text/csv</dcat:mediaType>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution>
+        <dcterms:title>Sleep.csv</dcterms:title>
+        <dcat:accessURL rdf:resource="data/Sleep.csv"/>
+        <dcat:mediaType>text/csv</dcat:mediaType>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution>
+        <dcterms:title>Physiology.csv</dcterms:title>
+        <dcat:accessURL rdf:resource="data/Physiology.csv"/>
+        <dcat:mediaType>text/csv</dcat:mediaType>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution>
+        <dcterms:title>Labels.csv</dcterms:title>
+        <dcat:accessURL rdf:resource="data/Labels.csv"/>
+        <dcat:mediaType>text/csv</dcat:mediaType>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution>
+        <dcterms:title>Demographics.csv</dcterms:title>
+        <dcat:accessURL rdf:resource="data/Demographics.csv"/>
+        <dcat:mediaType>text/csv</dcat:mediaType>
+      </dcat:Distribution>
+    </dcat:distribution>
+  </dcat:Dataset>
+</rdf:RDF>

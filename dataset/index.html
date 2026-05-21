@@ -2,7 +2,117 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>TIHM</title>
+<title>TIHM: An open dataset for remote healthcare monitoring in dementia</title>
+<meta name="description" content="Hosted copy of the TIHM dataset with activity, sleep, physiology, demographics, and label tables in CSV format.">
+<meta name="DC.title" content="TIHM: An open dataset for remote healthcare monitoring in dementia">
+<meta name="DC.creator" content="Francesca Palermo; Yu Chen; Alexander Capstick; Nan Fletcher-Loyd; Chloe Walsh; Samaneh Kouchaki; Jessica True; Olga Balazikova; Eyal Soreq; Gregory Scott; Helen Rostill; Ramin Nilforooshan; Payam Barnaghi">
+<meta name="DC.identifier" content="https://w3id.org/fair-hackathon/tihm/v1">
+<meta name="DC.publisher" content="UK DRI Care Research &amp; Technology Centre, Imperial College London">
+<meta name="DC.date" content="2023-02-10">
+<meta name="DC.language" content="en">
+<meta name="DC.type" content="Dataset">
+<meta name="DC.description" content="TIHM is an open in-home remote-monitoring dataset for People Living with Dementia (PLWD), comprising per-patient time-series of activity, sleep, physiology, demographics and clinical labels collected between 2019-04-01 and 2019-06-30 by the UK DRI Care Research &amp; Technology Centre at Imperial College London.">
+<meta name="DC.subject" content="Time-Series">
+<meta name="DC.subject" content="Machine Learning">
+<meta name="DC.subject" content="Remote Healthcare">
+<meta name="DC.subject" content="Monitoring">
+<meta name="DC.subject" content="Dementia">
+<meta name="DC.rights" content="CC BY 4.0">
+<meta name="citation_title" content="TIHM: An open dataset for remote healthcare monitoring in dementia">
+<meta name="citation_author" content="Francesca Palermo">
+<meta name="citation_author" content="Yu Chen">
+<meta name="citation_author" content="Alexander Capstick">
+<meta name="citation_author" content="Nan Fletcher-Loyd">
+<meta name="citation_author" content="Chloe Walsh">
+<meta name="citation_author" content="Samaneh Kouchaki">
+<meta name="citation_author" content="Jessica True">
+<meta name="citation_author" content="Olga Balazikova">
+<meta name="citation_author" content="Eyal Soreq">
+<meta name="citation_author" content="Gregory Scott">
+<meta name="citation_author" content="Helen Rostill">
+<meta name="citation_author" content="Ramin Nilforooshan">
+<meta name="citation_author" content="Payam Barnaghi">
+<meta name="citation_publication_date" content="2023-02-10">
+<meta name="citation_doi" content="10.5281/zenodo.7622128">
+<meta name="citation_keywords" content="Time-Series">
+<meta name="citation_keywords" content="Machine Learning">
+<meta name="citation_keywords" content="Remote Healthcare">
+<meta name="citation_keywords" content="Monitoring">
+<meta name="citation_keywords" content="Dementia">
+<link rel="license" href="LICENSE">
+<link rel="type" href="http://purl.org/dc/dcmitype/Dataset">
+<link rel="describedby" href="metadata.jsonld" type="application/ld+json" title="JSON-LD metadata">
+<link rel="describedby" href="metadata.xml" type="application/rdf+xml" title="RDF/XML metadata">
+<link rel="item" href="data/Activity.csv" type="text/csv" title="Activity.csv">
+<link rel="item" href="data/Demographics.csv" type="text/csv" title="Demographics.csv">
+<link rel="item" href="data/Labels.csv" type="text/csv" title="Labels.csv">
+<link rel="item" href="data/Physiology.csv" type="text/csv" title="Physiology.csv">
+<link rel="item" href="data/Sleep.csv" type="text/csv" title="Sleep.csv">
+<link rel="cite-as" href="https://doi.org/10.5281/zenodo.7622128">
+<script type="application/ld+json">
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "foaf": "http://xmlns.com/foaf/0.1/"
+  },
+  "@id": "https://w3id.org/fair-hackathon/tihm/v1",
+  "@type": ["dcat:Dataset", "schema:Dataset"],
+  "dcterms:identifier": "https://w3id.org/fair-hackathon/tihm/v1",
+  "schema:identifier": [
+    "https://w3id.org/fair-hackathon/tihm/v1",
+    "https://doi.org/10.5281/zenodo.7622128"
+  ],
+  "dcterms:title": "TIHM: An open dataset for remote healthcare monitoring in dementia",
+  "schema:name": "TIHM: An open dataset for remote healthcare monitoring in dementia",
+  "dcterms:description": "TIHM is an open in-home remote-monitoring dataset for People Living with Dementia (PLWD), comprising per-patient time-series of activity, sleep, physiology, demographics and clinical labels collected between 2019-04-01 and 2019-06-30 by the UK DRI Care Research & Technology Centre.",
+  "schema:description": "TIHM is an open in-home remote-monitoring dataset for People Living with Dementia (PLWD), comprising per-patient time-series of activity, sleep, physiology, demographics and clinical labels collected between 2019-04-01 and 2019-06-30 by the UK DRI Care Research & Technology Centre.",
+  "dcterms:issued": "2023-02-10",
+  "dcterms:modified": "2026-05-21",
+  "dcterms:language": "en",
+  "dcterms:publisher": {
+    "@type": "foaf:Organization",
+    "foaf:name": "UK DRI Care Research & Technology Centre, Imperial College London",
+    "foaf:homepage": "https://ukdri.ac.uk/centres/care-research-technology"
+  },
+  "dcterms:creator": [
+    {"@type": "foaf:Person", "foaf:name": "Francesca Palermo"},
+    {"@type": "foaf:Person", "foaf:name": "Yu Chen"},
+    {"@type": "foaf:Person", "foaf:name": "Alexander Capstick"},
+    {"@type": "foaf:Person", "foaf:name": "Nan Fletcher-Loyd"},
+    {"@type": "foaf:Person", "foaf:name": "Chloe Walsh"},
+    {"@type": "foaf:Person", "foaf:name": "Samaneh Kouchaki"},
+    {"@type": "foaf:Person", "foaf:name": "Jessica True"},
+    {"@type": "foaf:Person", "foaf:name": "Olga Balazikova"},
+    {"@type": "foaf:Person", "foaf:name": "Eyal Soreq"},
+    {"@type": "foaf:Person", "foaf:name": "Gregory Scott"},
+    {"@type": "foaf:Person", "foaf:name": "Helen Rostill"},
+    {"@type": "foaf:Person", "foaf:name": "Ramin Nilforooshan"},
+    {"@type": "foaf:Person", "foaf:name": "Payam Barnaghi"}
+  ],
+  "dcat:keyword": ["Time-Series", "Machine Learning", "Remote Healthcare", "Monitoring", "Dementia"],
+  "dcat:theme": ["http://eurovoc.europa.eu/4636", "http://eurovoc.europa.eu/2476"],
+  "dcterms:rights": "https://creativecommons.org/licenses/by/4.0/",
+  "dcterms:license": "https://creativecommons.org/licenses/by/4.0/",
+  "dcterms:accessRights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+  "dcterms:conformsTo": "https://www.w3.org/TR/vocab-dcat-2/",
+  "prov:wasDerivedFrom": "https://doi.org/10.5281/zenodo.7622128",
+  "dcterms:source": "https://doi.org/10.5281/zenodo.7622128",
+  "dcat:distribution": [
+    {"@type": "dcat:Distribution", "dcat:accessURL": "data/Activity.csv", "dcat:mediaType": "text/csv", "dcterms:title": "Activity.csv"},
+    {"@type": "dcat:Distribution", "dcat:accessURL": "data/Demographics.csv", "dcat:mediaType": "text/csv", "dcterms:title": "Demographics.csv"},
+    {"@type": "dcat:Distribution", "dcat:accessURL": "data/Labels.csv", "dcat:mediaType": "text/csv", "dcterms:title": "Labels.csv"},
+    {"@type": "dcat:Distribution", "dcat:accessURL": "data/Physiology.csv", "dcat:mediaType": "text/csv", "dcterms:title": "Physiology.csv"},
+    {"@type": "dcat:Distribution", "dcat:accessURL": "data/Sleep.csv", "dcat:mediaType": "text/csv", "dcterms:title": "Sleep.csv"}
+  ],
+  "dcterms:temporal": {
+    "dcterms:start": "2019-04-01",
+    "dcterms:end": "2019-06-30"
+  }
+}
+</script>
 </head>
 <body>
 <h1>TIHM: An open dataset for remote healthcare monitoring in dementia</h1>
@@ -15,14 +125,19 @@
 
 <p>TIHM is an open in-home remote-monitoring dataset for People Living with Dementia (PLWD), comprising per-patient time-series of activity, sleep, physiology, demographics and clinical labels collected between 2019-04-01 and 2019-06-30 by the UK DRI Care Research &amp; Technology Centre at Imperial College London. This re-hosted copy is provided as a FAIR-by-design teaching dataset.</p>
 
+<p>The hosted CSV files below preserve the same tabular content as the reference TIHM dataset while restoring meaningful filenames and dataset-level documentation for easier discovery and reuse.</p>
+
 <h2>Files</h2>
 <ul>
-  <li><a href="data/Activity.dat">Activity.dat</a> &mdash; room-level activity per patient</li>
-  <li><a href="data/Demographics.dat">Demographics.dat</a> &mdash; sex, age band</li>
-  <li><a href="data/Labels.dat">Labels.dat</a> &mdash; clinical labels (agitation, weight, &hellip;)</li>
-  <li><a href="data/Physiology.dat">Physiology.dat</a> &mdash; HR, BP, temperature, &hellip;</li>
-  <li><a href="data/Sleep.dat">Sleep.dat</a> &mdash; sleep stages with HR/respiration</li>
+  <li><a href="data/Activity.csv">Activity.csv</a> &mdash; room-level activity per patient</li>
+  <li><a href="data/Demographics.csv">Demographics.csv</a> &mdash; sex, age band</li>
+  <li><a href="data/Labels.csv">Labels.csv</a> &mdash; clinical labels (agitation, weight, &hellip;)</li>
+  <li><a href="data/Physiology.csv">Physiology.csv</a> &mdash; HR, BP, temperature, &hellip;</li>
+  <li><a href="data/Sleep.csv">Sleep.csv</a> &mdash; sleep stages with HR/respiration</li>
   <li><a href="README.md">README.md</a> &mdash; column dictionary</li>
+  <li><a href="LICENSE">LICENSE</a> &mdash; Creative Commons Attribution 4.0</li>
+  <li><a href="metadata.jsonld">metadata.jsonld</a> &mdash; machine-readable JSON-LD metadata</li>
+  <li><a href="metadata.xml">metadata.xml</a> &mdash; RDF/XML metadata</li>
 </ul>
 
 <h2>Provenance</h2>

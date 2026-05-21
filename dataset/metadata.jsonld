@@ -1,0 +1,59 @@
+{
+  "@context": {
+    "schema":   "https://schema.org/",
+    "dcat":     "http://www.w3.org/ns/dcat#",
+    "dcterms":  "http://purl.org/dc/terms/",
+    "prov":     "http://www.w3.org/ns/prov#",
+    "foaf":     "http://xmlns.com/foaf/0.1/"
+  },
+  "@id":   "https://w3id.org/fair-hackathon/tihm/v1",
+  "@type": ["dcat:Dataset", "schema:Dataset"],
+  "dcterms:identifier": "https://w3id.org/fair-hackathon/tihm/v1",
+  "schema:identifier": [
+    "https://w3id.org/fair-hackathon/tihm/v1",
+    "https://doi.org/10.5281/zenodo.7622128"
+  ],
+  "dcterms:title":   "TIHM: An open dataset for remote healthcare monitoring in dementia",
+  "schema:name":     "TIHM: An open dataset for remote healthcare monitoring in dementia",
+  "dcterms:description": "TIHM is an open in-home remote-monitoring dataset for People Living with Dementia (PLWD), comprising per-patient time-series of activity, sleep, physiology, demographics and clinical labels collected between 2019-04-01 and 2019-06-30 by the UK DRI Care Research & Technology Centre.",
+  "schema:description":  "TIHM is an open in-home remote-monitoring dataset for People Living with Dementia (PLWD), comprising per-patient time-series of activity, sleep, physiology, demographics and clinical labels collected between 2019-04-01 and 2019-06-30 by the UK DRI Care Research & Technology Centre.",
+  "dcterms:issued":   "2023-02-10",
+  "dcterms:modified": "2026-05-21",
+  "dcterms:language": "en",
+  "dcterms:publisher": {
+    "@type": "foaf:Organization",
+    "foaf:name": "UK DRI Care Research & Technology Centre, Imperial College London",
+    "foaf:homepage": "https://ukdri.ac.uk/centres/care-research-technology"
+  },
+  "dcterms:creator": [
+    {"@type":"foaf:Person","foaf:name":"Francesca Palermo"},
+    {"@type":"foaf:Person","foaf:name":"Yu Chen"},
+    {"@type":"foaf:Person","foaf:name":"Alexander Capstick"},
+    {"@type":"foaf:Person","foaf:name":"Nan Fletcher-Loyd"},
+    {"@type":"foaf:Person","foaf:name":"Chloe Walsh"},
+    {"@type":"foaf:Person","foaf:name":"Samaneh Kouchaki"},
+    {"@type":"foaf:Person","foaf:name":"Jessica True"},
+    {"@type":"foaf:Person","foaf:name":"Olga Balazikova"},
+    {"@type":"foaf:Person","foaf:name":"Eyal Soreq"},
+    {"@type":"foaf:Person","foaf:name":"Gregory Scott"},
+    {"@type":"foaf:Person","foaf:name":"Helen Rostill"},
+    {"@type":"foaf:Person","foaf:name":"Ramin Nilforooshan"},
+    {"@type":"foaf:Person","foaf:name":"Payam Barnaghi"}
+  ],
+  "dcat:keyword":      ["Time-Series","Machine Learning","Remote Healthcare","Monitoring","Dementia"],
+  "dcat:theme":        ["http://eurovoc.europa.eu/4636","http://eurovoc.europa.eu/2476"],
+  "dcterms:rights":    "https://creativecommons.org/licenses/by/4.0/",
+  "dcterms:license":   "https://creativecommons.org/licenses/by/4.0/",
+  "dcterms:accessRights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+  "dcterms:conformsTo":   "https://www.w3.org/TR/vocab-dcat-2/",
+  "prov:wasDerivedFrom":  "https://doi.org/10.5281/zenodo.7622128",
+  "dcterms:source":       "https://doi.org/10.5281/zenodo.7622128",
+  "dcat:distribution": [
+    {"@type":"dcat:Distribution","dcat:accessURL":"data/Activity.csv",     "dcat:mediaType":"text/csv","dcterms:title":"Activity.csv"},
+    {"@type":"dcat:Distribution","dcat:accessURL":"data/Demographics.csv", "dcat:mediaType":"text/csv","dcterms:title":"Demographics.csv"},
+    {"@type":"dcat:Distribution","dcat:accessURL":"data/Labels.csv",       "dcat:mediaType":"text/csv","dcterms:title":"Labels.csv"},
+    {"@type":"dcat:Distribution","dcat:accessURL":"data/Physiology.csv",   "dcat:mediaType":"text/csv","dcterms:title":"Physiology.csv"},
+    {"@type":"dcat:Distribution","dcat:accessURL":"data/Sleep.csv",        "dcat:mediaType":"text/csv","dcterms:title":"Sleep.csv"}
+  ],
+  "dcterms:temporal":  {"dcterms:start":"2019-04-01","dcterms:end":"2019-06-30"}
+}
