@@ -151,3 +151,6 @@ scripts/summarise.py     Rebuild RESULTS.md from assessments/
   CC-BY-4.0.
 - F-UJI: PANGAEA / Pangaea Data Publisher,
   [pangaea-data-publisher/fuji](https://github.com/pangaea-data-publisher/fuji).
+
+## Citation
+DOI: https://doi.org/10.5281/zenodo.1234567
